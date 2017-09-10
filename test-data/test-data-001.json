@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "Parent Entity": "Charles Company",
+      "Children": [
+        {
+          "Child": "Charles ABC",
+          "Mou": 346.4,
+          "Revenue": 2.3,
+          "Margin": 34.2,
+          "Margin Pct": 0.134,
+          "Rpm": 0.0032,
+          "Cpm": 0.0015
+        },
+        {
+          "Child": "Charles XYZ",
+          "Mou": 3326.4,
+          "Revenue": 22.3,
+          "Margin": 14.2,
+          "Margin Pct": 0.1344,
+          "Rpm": 0.0012,
+          "Cpm": 0.0015
+        },
+        {
+          "Child": "Charles DEF",
+          "Mou": 26.4,
+          "Revenue": 12.3,
+          "Margin": 15.2,
+          "Margin Pct": 0.334,
+          "Rpm": 0.0033,
+          "Cpm": 0.0043
+        }
+      ]
+    },
+    {
+      "Parent Entity": "Basic Something, Inc.",
+      "Children": [
+        {
+          "Child": "Basic Blerp",
+          "Mou": 36.3,
+          "Revenue": 32.3,
+          "Margin": 14.2,
+          "Margin Pct": 0.543,
+          "Rpm": 0.00156,
+          "Cpm": 0.00135
+        },
+        {
+          "Child": "Basic Bloop",
+          "Mou": 33536.4,
+          "Revenue": 122.3,
+          "Margin": 1234.2,
+          "Margin Pct": 0.7424,
+          "Rpm": 0.0022,
+          "Cpm": 0.0017
+        },
+        {
+          "Child": "Basic Bleep",
+          "Mou": 84.4,
+          "Revenue": 76.3,
+          "Margin": 17.2,
+          "Margin Pct": 0.254,
+          "Rpm": 0.0021,
+          "Cpm": 0.0021
+        }
+      ]
+    },
+    {
+      "Parent Entity": "Lonely Child",
+      "Children": [
+        {
+          "Child": "Lonely Child",
+          "Mou": 234.4,
+          "Revenue": 22.3,
+          "Margin": 53.2,
+          "Margin Pct": 0.332,
+          "Rpm": 0.0022,
+          "Cpm": 0.0012
+        }
+      ]
+    }
+  ]
+}
