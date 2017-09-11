@@ -77,6 +77,52 @@
           "Cpm": 0.0012
         }
       ]
+    },
+    {
+      "Parent Entity": "Matsumura Fishworks",
+      "Children": [
+        {
+          "Child": "Mr. Sparkle 1",
+          "Mou": 232.2,
+          "Revenue": 21.4,
+          "Margin": 33.2,
+          "Margin Pct": 0.432,
+          "Rpm": 0.0012,
+          "Cpm": 0.0032
+        },
+        {
+          "Child": "Mr. Sparkle 2",
+          "Mou": 142.2,
+          "Revenue": 11.4,
+          "Margin": 34.2,
+          "Margin Pct": 0.412,
+          "Rpm": 0.0019,
+          "Cpm": 0.0092
+        }
+      ]
+    },
+    {
+      "Parent Entity": "Tamaribuchi Heavy Manufacturing Concern",
+      "Children": [
+        {
+          "Child": "Mr. Sparkle 3",
+          "Mou": 343.2,
+          "Revenue": 324.2,
+          "Margin": 384.2,
+          "Margin Pct": 0.382,
+          "Rpm": 0.0021,
+          "Cpm": 0.0022
+        },
+        {
+          "Child": "Mr. Sparkle 4",
+          "Mou": 122.2,
+          "Revenue": 13.4,
+          "Margin": 34.9,
+          "Margin Pct": 0.112,
+          "Rpm": 0.0049,
+          "Cpm": 0.0052
+        }
+      ]
     }
   ]
 }
