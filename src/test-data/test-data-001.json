@@ -1,0 +1,115 @@
+{
+  "rowHeaders":[
+          "Name",
+          "Mou",
+          "Revenue",
+          "Margin",
+          "Margin Pct",
+          "Rpm",
+          "Cpm"
+  ],
+  "rows": [
+    {
+      "name": "Charles Company",
+      "data": [],
+      "children": [
+        {
+          "name": "Charles ABC",
+          "data":[
+          346.4,
+          2.3,
+          34.2,
+          0.134,
+          0.0032,
+          0.0015
+          ],
+          "children": []
+        },
+        {
+          "name": "Charles XYZ",
+          "data":[
+          3326.4,
+          22.3,
+          14.2,
+          0.1344,
+          0.0012,
+          0.0015
+          ],
+          "children": []
+        },
+        {
+          "name": "Charles DEF",
+          "data":[
+          26.4,
+          12.3,
+          15.2,
+          0.334,
+          0.0033,
+          0.0043
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Basic Something, Inc.",
+      "data": [],
+      "children": [
+        {
+          "name": "Basic Blerp",
+          "data": [
+            36.3,
+            32.3,
+            14.2,
+            0.543,
+            0.00156,
+            0.00135
+            ],
+            "children": []
+        },
+        {
+          "name": "Basic Bloop",
+          "data":[
+          33536.4,
+          122.3,
+          1234.2,
+          0.7424,
+          0.0022,
+          0.0017
+          ],
+          "children": []
+        },
+        {
+          "name": "Basic Bleep",
+          "data":[
+          84.4,
+          76.3,
+          17.2,
+          0.254,
+          0.0021,
+          0.0021
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Lonely Child",
+      "data": [],
+      "children": [
+        {
+          "name": "Lonely Child",
+          "data":[
+          234.4,
+          22.3,
+          53.2,
+          0.332,
+          0.0022,
+          0.0012
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

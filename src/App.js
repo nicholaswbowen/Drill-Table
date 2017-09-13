@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {ExpandTable} from './expandableTable.js'
+import {DrillTable} from './drillTable.js'
+import TestData from './test-data/test-data-001.json'
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ExpandTable />
+        <DrillTable tableData={TestData}/>
       </div>
     );
   }
