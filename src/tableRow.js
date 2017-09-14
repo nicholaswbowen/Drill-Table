@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {TableCell} from './tableCell'
+import {TableCell, TitleCell} from './tableCell'
 import {TotalsRow} from './totalsRow'
 export class TableRow extends Component{
     constructor(){
@@ -12,12 +12,9 @@ export class TableRow extends Component{
     }
     render(){
         return(<div>
-            {this.createDepth()}
-            {/* {this.state.isExpanded ? <div> Children of {this.props.rowData.name} <hr /></div> : null} */}
-            <TableCell content={this.props.rowData.name} buttonHandler={this.addExpandHandler()}/>
+            <TitleCell content={this.props.rowData.name} buttonHandler={this.addExpandHandler()} depth={this.props.depth || 0}/>
             <TotalsRow rowData={this.props.rowData}/>
             {this.state.isExpanded ? this.renderChildren(this.props.rowData.children, this.props.depth || 0) : null}
-            {this.state.isExpanded ? <hr /> : null}
         </div>)
     }
     createDepth(){

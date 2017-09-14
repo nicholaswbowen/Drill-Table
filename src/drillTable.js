@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {TableRow} from './tableRow'
-import {TableCell} from './tableCell'
+import {TableCell, TitleCell} from './tableCell'
 export class DrillTable extends Component{
     constructor(){
         super();
@@ -24,6 +24,9 @@ class TableHeader extends Component{
     render(){
         return(<div>
             {this.props.headers.map((header, index) => {
+                if (index === 0){
+                    return <TitleCell key={`row-header-${header}`}content={header} depth={0}/>
+                }
                 return <TableCell key={`row-header-${header}`}content={header}/>
             })}
         </div>)
