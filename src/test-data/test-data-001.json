@@ -15,15 +15,59 @@
       "children": [
         {
           "name": "Charles ABC",
-          "data":[
-          346.4,
-          2.3,
-          34.2,
-          0.134,
-          0.0032,
-          0.0015
-          ],
-          "children": []
+          "data":[],
+          "children": [ {
+            "name": "Charles QWE",
+            "data":[
+            346.4,
+            2.3,
+            34.2,
+            0.134,
+            0.0032,
+            0.0015
+            ],
+            "children": []
+          },
+          {
+            "name": "Charles IOP",
+            "data":[],
+            "children": [{
+              "name": "Charles GHJ",
+              "data":[
+              346.4,
+              2.3,
+              34.2,
+              0.134,
+              0.0032,
+              0.0015
+              ],
+              "children": []
+            },
+            {
+              "name": "Charles JKL",
+              "data":[
+              346.4,
+              2.3,
+              34.2,
+              0.134,
+              0.0032,
+              0.0015
+              ],
+              "children": []
+            },
+            {
+              "name": "Charles ASD",
+              "data":[
+              346.4,
+              2.3,
+              34.2,
+              0.134,
+              0.0032,
+              0.0015
+              ],
+              "children": []
+            }]
+          }]
         },
         {
           "name": "Charles XYZ",
