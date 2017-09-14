@@ -38,8 +38,9 @@ export class TitleCell extends Component{
         this.state = {titleCellStyle: Object.assign({}, localStyle.tableCell)}
     }
     componentDidMount(){
+        const titleBaseWidth = 500;
         let tempTitleStyle = Object.assign({}, this.state.titleCellStyle)
-        let depthWidth = 500 / (this.props.depth + 1)
+        let depthWidth = titleBaseWidth - (titleBaseWidth * (.05 * this.props.depth))
         let depthMargin = 500 - depthWidth;
         tempTitleStyle.width = `${depthWidth}px`
         tempTitleStyle.marginLeft = `${depthMargin}px`
